@@ -217,5 +217,31 @@ a.global-nav__link:focus {
 }
 
 .body .aside {
+  display: flex;
+  flex-direction: column;
   width: 30%;
+}
+
+.aside-ads{
+  justify-content: space-evenly;
+}
+
+.aside-ads__image {
+  height: 100%;
+}
+
+.aside {
+  padding: 8px;
+}
+
+.aside-ads ol {
+  display: flex;
+}
+
+.aside-ads li {
+  display: flex;
+}
+
+.aside-ads__items li{
+  padding-bottom: 8px;
 }
