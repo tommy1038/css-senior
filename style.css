@@ -153,7 +153,7 @@ body {
 
 .global-nav__link {
   display: flex;
-  height: 44px;
+  height: 64px;
   align-items: center;
   justify-content: center;
 }
