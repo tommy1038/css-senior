@@ -177,12 +177,12 @@ a.global-nav__link:focus {
   align-items: center;
 }
 
-.bread-crumbs__items li:not(:last-child)::after{
+.bread-crumbs__items li:not(:last-child)::after {
   content: ">";
   color: #fff;
   font-size: 12px;
   margin-left: 6px;
-  margin-right: 6px; 
+  margin-right: 6px;
 }
 
 .bread-crumbs__item a {
@@ -190,4 +190,19 @@ a.global-nav__link:focus {
   text-decoration: none;
   align-items: center;
   font-size: 12px;
+}
+
+.top-ads__items {
+  display: flex;
+  background-color: #CCCCCC;
+  justify-content: space-evenly;
+}
+
+.top-ads__item {
+  width: 30%;
+  padding: 16px 0;
+}
+
+.top-ads__image {
+  width: 100%;
 }
