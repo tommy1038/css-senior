@@ -104,3 +104,16 @@ body {
 ////////////////////////////////////////
 */
 
+.header {
+  display: flex;
+  height: 120px;
+  background-color: #999;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title {
+  color: #4C4C4C;
+  font-size : 40px;
+  font-weight: bold;
+}
