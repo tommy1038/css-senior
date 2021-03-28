@@ -206,3 +206,16 @@ a.global-nav__link:focus {
 .top-ads__image {
   width: 100%;
 }
+
+.body {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.body .main {
+  width: 70%;
+}
+
+.body .aside {
+  width: 30%;
+}
