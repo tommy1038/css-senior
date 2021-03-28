@@ -162,3 +162,32 @@ a.global-nav__link:hover,
 a.global-nav__link:focus {
   opacity: 0.5;
 }
+
+.bread-crumbs {
+  padding: 8px;
+  background-color: #5C5C5C;
+}
+
+.bread-crumbs ol {
+  display: flex;
+}
+
+.bread-crumbs li {
+  display: flex;
+  align-items: center;
+}
+
+.bread-crumbs__items li:not(:last-child)::after{
+  content: ">";
+  color: #fff;
+  font-size: 12px;
+  margin-left: 6px;
+  margin-right: 6px; 
+}
+
+.bread-crumbs__item a {
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  font-size: 12px;
+}
