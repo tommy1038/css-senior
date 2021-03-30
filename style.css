@@ -248,7 +248,9 @@ a.global-nav__link:focus {
 
 .main-header {
   display: flex;
-  padding: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
   background-color: #EEE;
 }
 
@@ -282,20 +284,22 @@ a.global-nav__link:focus {
 }
 
 .article h3 {
-  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .article__title {
   font-size: 24px;
   font-weight: bold;
-  margin-left: 16px;
-  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
 }
 
 .article__title::before {
   content: "";
   position: absolute;
-  transform: translateY(-16.66%);
+  transform: translateY(-12.5%);
   width: 8px;
   margin-left: -16px;
   border-top: solid 16px #999;
@@ -348,7 +352,7 @@ a.global-nav__link:focus {
 .article__blockquote {
   border-left: solid 4px #999;
   padding-left: 16px;
-  padding-top: 24px;
+  padding-top: 32px;
   margin-left: 16px;
 }
 
@@ -374,4 +378,12 @@ a.global-nav__link:focus {
   line-height: 1.6;
   text-align: justify;
   margin-bottom: 32px;
+}
+
+.article__image {
+  display: flex;
+  filter: saturate(150%);
+  box-sizing: border-box;
+  padding: 2px;
+  margin-bottom: 24px;
 }
