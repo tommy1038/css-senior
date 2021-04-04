@@ -434,7 +434,7 @@ a.global-nav__link:focus {
   position: absolute;
   color: #FFF;
   border-radius: 50%;
-  transform: translateX(-950%) translateY(50%);
+  transform: translateX(-940%) translateY(50%);
 }
 
 .article__order-list-item {
@@ -523,4 +523,102 @@ a.global-nav__link:focus {
   height: 24em;
   font-family: inherit;
   line-height: 1.2;
+}
+
+.form-item__inline-items {
+  display: flex;
+  margin: 0 16px;
+}
+
+.form-item__radio {
+  display: inline-block;
+  background-color: #EAEAEA;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: solid 2px #DDD;
+  padding: 12px 12px 12px 8px;
+  margin-right: 12px;
+}
+
+.form-item__checkbox {
+  display: inline-block;
+  background-color: #D5D5D5;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: solid 2px #DDD;
+  padding: 12px 12px 12px 8px;
+  margin-right: 12px;
+}
+
+.form-item__select-pull-down {
+  display: inline-block;
+  flex-grow: 1;
+  margin: 0 16px;
+  background-color: #EAEAEA;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: solid 2px #DDD;
+}
+
+.form-item__select-list {
+  display: inline-block;
+  flex-grow: 1;
+  margin: 0 16px;
+  border: solid 1px #DDD;
+}
+
+.form-item__select-list-option {
+  padding: 8px;
+  background-color: #EAEAEA;
+  border: solid 2px #DDD;
+}
+
+.form-item__file {
+  margin: 0 16px;
+  flex-grow: 1;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #EAEAEA;
+  border: solid 2px #DDD;
+  padding: 4px;
+}
+
+.form-item__actions {
+  flex-grow: 1;
+}
+
+.form-item__actions-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 16px;
+}
+
+.form-item__actions-item {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.form-item__action {
+  width: 90%;
+  padding: 8px 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #EAEAEA;
+  border: solid 2px #DDD;
+}
+
+.is-submit {
+  background-color: #343434;
+  margin-right: 24px;
+  color: #fff;
+}
+
+.is-reset {
+  background-color: #C1C1C1;
+  padding-left: 12px;
 }
