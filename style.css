@@ -411,7 +411,6 @@ a.global-nav__link:focus {
   margin-bottom: 8px;
 }
 
-/* 擬似装飾については、transformでの実装を検討する */
 .article__sub-sub-title::before {
   content: "";
   position: absolute;
