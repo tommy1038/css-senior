@@ -212,6 +212,10 @@ a.global-nav__link:focus {
   flex-direction: row-reverse;
 }
 
+.main {
+  background-color: #fff;
+}
+
 .body .main {
   width: 70%;
 }
@@ -292,7 +296,7 @@ a.global-nav__link:focus {
 
 .article {
   background-color: #DDD;
-  padding: 8px;
+  padding: 8px 8px 16px 8px;
 }
 
 .article h3 {
@@ -442,5 +446,41 @@ a.global-nav__link:focus {
   margin-left: 16px;
 }
 
+.form {
+  background: #fff;
+}
 
+.form h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 48px;
+  position: relative;
+  overflow: hidden;
+}
 
+.form h3::before {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  border: solid 2px black;
+}
+
+.form h3::after {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 0px;
+  border: solid 2px black;
+  transform: translateY(-140%) rotate(45deg);
+}
+
+.form__title {
+  margin: 16px;
+  position: relative;
+  overflow: hidden;
+}
