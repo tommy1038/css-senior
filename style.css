@@ -226,9 +226,7 @@ a.global-nav__link:focus {
   width: 30%;
 }
 
-
-/* TODO: asideに関しては、後日修正 */
-.aside-ads{
+.aside-ads {
   align-items: center;
 }
 
@@ -253,7 +251,7 @@ a.global-nav__link:focus {
   flex-direction: column;
 }
 
-.aside-ads__items li{
+.aside-ads__items li {
   padding-bottom: 8px;
 }
 
@@ -296,7 +294,7 @@ a.global-nav__link:focus {
 
 .article {
   background-color: #DDD;
-  padding: 8px 8px 16px 8px;
+  padding: 16px;
 }
 
 .article h3 {
@@ -443,6 +441,7 @@ a.global-nav__link:focus {
   list-style-type: decimal;
   line-height: 1.6;
   margin-left: 16px;
+  margin-bottom: 8px;
 }
 
 .form {
@@ -450,9 +449,9 @@ a.global-nav__link:focus {
 }
 
 .form h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  padding-left: 48px;
+  padding-left: 40px;
   position: relative;
   overflow: hidden;
 }
@@ -460,21 +459,21 @@ a.global-nav__link:focus {
 .form h3::before {
   content: "";
   display: block;
-  width: 36px;
-  height: 24px;
+  width: 30px;
+  height: 20px;
   position: absolute;
   left: 0px;
-  border: solid 2px black;
+  border: solid 2px #444;
 }
 
 .form h3::after {
   content: "";
   display: block;
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   position: absolute;
   left: 0px;
-  border: solid 2px black;
+  border: solid 2px #444;
   transform: translateY(-140%) rotate(45deg);
 }
 
@@ -482,4 +481,46 @@ a.global-nav__link:focus {
   margin: 16px;
   position: relative;
   overflow: hidden;
+}
+
+.form-item {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.form-item__label {
+  display: inline-block;
+  flex-basis: 200px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.form-item__text-input {
+  display: inline-block;
+  flex-grow: 1;
+  outline: none;
+  border: 1px solid #DDD;
+  margin: 0 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.form-item__textarea {
+  display: inline-block;
+  flex-grow: 1;
+  outline: none;
+  border: 1px solid #DDD;
+  margin: 0 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  vertical-align: middle;
+  padding: 8px;
+  height: 24em;
+  font-family: inherit;
+  line-height: 1.2;
 }
